@@ -1,0 +1,33 @@
+.container {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+input {
+  width: 300px;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 16px;
+}
+
+/* .response-box {
+  margin-top: 20px;
+  background: #f6f6f6;
+  padding: 1rem;
+  border-radius: 5px;
+  white-space: pre-wrap;
+} */
+
+.result-box {
+  background-color: #f0f0f0;  /* Light background color */
+  color: #000;                /* Black text color */
+  padding: 1rem;              /* Space around the text */
+  border-radius: 8px;         /* Rounded corners */
+  margin-top: 20px;           /* Space between form and result */
+  max-width: 80%;             /* Prevents too wide result box */
+  word-wrap: break-word;      /* Break long words onto next line */
+}
+
